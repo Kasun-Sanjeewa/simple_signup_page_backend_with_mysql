@@ -6,10 +6,7 @@ const host = 'localhost';
 
 // MySQL Connection Setup
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: "", // Ensure this matches your MySQL setup
-    database: 'attendanceJframebd'
+   // Ensure this matches your MySQL setup
 });
 
 // Establish MySQL connection
