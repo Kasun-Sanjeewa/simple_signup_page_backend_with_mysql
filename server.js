@@ -20,7 +20,7 @@ db.connect((err) => {
 
 // Routes
 app.get('/getUsers', (req, res) => {
-    const myquery = "SELECT * FROM `userdetails`";
+    const myquery = "SELECT * FROM `table`";
     db.query(myquery, (err, result) => {
         if (err) {
             console.error(err); // Log error for debugging
